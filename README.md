@@ -1,5 +1,14 @@
 <!--
-title: 'AWS Simple HTTP Endpoint example in NodeJS'
+title: 'AWS-DIO-IaaC-Serverless-Seventh with NodeJS'
+
+endpoints:                                                                                   
+  GET - https://s1gnbwe4x0.execute-api.us-east-1.amazonaws.com/
+  POST - https://s1gnbwe4x0.execute-api.us-east-1.amazonaws.com/item
+  GET - https://s1gnbwe4x0.execute-api.us-east-1.amazonaws.com/items
+  GET - https://s1gnbwe4x0.execute-api.us-east-1.amazonaws.com/items/{id}
+  PUT - https://s1gnbwe4x0.execute-api.us-east-1.amazonaws.com/items/{id}
+
+
 description: 'This template demonstrates how to make a simple HTTP API with Node.js running on AWS Lambda and API Gateway using the Serverless Framework.'
 layout: Doc
 framework: v3
